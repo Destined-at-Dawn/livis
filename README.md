@@ -6,9 +6,9 @@
 
 把你选好的聊天记录和附件留在电脑上，搜得到消息，也找得到原件。
 
-[**下载 Windows 版**](https://github.com/Destined-at-Dawn/livis/releases/download/v1.1.0/Livis-Plus-v1.1.0-Windows-x64.zip) · [**看在线演示**](https://download.yulitongxing.com/#livis) · [使用说明](docs/getting-started.md) · [问题反馈](https://github.com/Destined-at-Dawn/livis/issues)
+[**下载 Windows 版**](https://github.com/Destined-at-Dawn/livis/releases/download/v1.1.1/Livis-Plus-v1.1.1-Windows-x64.zip) · [**看在线演示**](https://download.yulitongxing.com/#livis) · [使用说明](docs/getting-started.md) · [问题反馈](https://github.com/Destined-at-Dawn/livis/issues)
 
-Plus 免费 · Windows x64 · 1.1.0
+Plus 免费 · Windows x64 · 1.1.1
 
 ![Livis Plus Windows 实际运行画面](docs/assets/livis-windows.png)
 
@@ -28,7 +28,9 @@ Plus 处理你主动选好的文件，不读取微信或 QQ 数据库。
 
 ## 三步开始
 
-1. [下载 ZIP](https://github.com/Destined-at-Dawn/livis/releases/download/v1.1.0/Livis-Plus-v1.1.0-Windows-x64.zip)，解压后运行 `Livis-Plus-Setup-1.1.0-x64.exe`。
+1. [下载 ZIP](https://github.com/Destined-at-Dawn/livis/releases/download/v1.1.1/Livis-Plus-v1.1.1-Windows-x64.zip)，解压后运行 `Livis-Plus-Setup-1.1.1-x64.exe`。
+   Windows 若弹出“已保护你的电脑”，先核对下载页的 SHA-256，再点“更多信息”→“仍要运行”（安装程序暂未代码签名）。
+   第一次启动，或电脑较慢、杀毒软件正在扫描时，窗口会先显示“正在启动 Livis…”，请只双击一次，耐心等 1～3 分钟。[遇到问题怎么办](docs/getting-started.md#安装与启动遇到问题)
 2. 安装免费开源的[微信流 WeChatBridge](https://github.com/freestylefly/WeChatBridge/releases) Windows 版。在微信里右键消息选“多选”，点“合并转发”→“电脑中的应用”→“微信流”。
    打开 Livis Plus 的“微信主动分享”，转发的聊天记录会自动同步进来。**不需要提取密钥，也不读取微信数据库。** 已有 ZIP、TXT 或附件时，也可以直接选择导入。暂时不需要 AI，可以先不用模型。
 3. 搜一个关键词，打开记录，查看消息和原件。
