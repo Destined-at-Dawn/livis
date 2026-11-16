@@ -83,6 +83,18 @@ Plus 处理你主动选好的文件，不读取微信或 QQ 数据库。
 
 支持本机模型，不等于整台电脑永不联网。[查看实际的数据流与组件](docs/architecture.md)。
 
+## 浏览器自动化（可选）
+
+Livis 集成了基于 [ego-lite](https://github.com/citrolabs/ego-lite) 的 `ego-browser` Skill，可让 Codex、Claude Code 等 Agent 在独立 Space 中执行网页打开、快照、点击、填表、截图和数据提取。浏览器本体需要单独安装，Livis 不保存或分发浏览器登录信息。
+
+Windows 安装 ego lite 并完成首次引导后，打开 PowerShell 运行：
+
+```powershell
+.\\scripts\\verify-ego-browser.ps1
+```
+
+详细步骤、状态清理边界和使用规范见 [浏览器自动化说明](docs/browser-automation.md)。
+
 ## 还有一款小软件：团团
 
 在桌边陪你查看 AI 额度的小猫，会呼吸、眨眼、摇尾巴，也能切换成悬浮球。需要与黎站账号查看授权范围内的额度。
