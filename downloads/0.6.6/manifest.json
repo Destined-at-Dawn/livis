@@ -1,0 +1,12 @@
+{
+  "product": "livis",
+  "version": "0.6.6",
+  "platform": "Windows x64",
+  "installer": "Livis-Setup-0.6.6-x64.exe",
+  "installer_url": "https://github.com/Destined-at-Dawn/livis/releases/download/v0.6.6/Livis-Setup-0.6.6-x64.exe",
+  "sha256": "8876863c490ab367f6ff42e2bd0acb87b7f1c9aca0e3f3d96d51aab061f66622",
+  "size_bytes": 186522884,
+  "download_page": "https://download.yulitongxing.com/#livis",
+  "release_url": "https://github.com/Destined-at-Dawn/livis/releases/tag/v0.6.6",
+  "source_policy": "This repository contains public download materials, documentation, examples, and release metadata. Core application source is not included."
+}
