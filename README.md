@@ -6,7 +6,7 @@
 
 Windows x64 本地应用：导入你主动选择的资料，搜索聊天内容和附件，把需要的上下文接回 Livis 工作台。
 
-[**下载 Livis 0.6.9**](https://github.com/Destined-at-Dawn/livis/releases/tag/v0.6.9) · [**打开下载页**](https://download.yulitongxing.com/#livis) · [使用说明](docs/getting-started.md) · [问题反馈](https://github.com/Destined-at-Dawn/livis/issues)
+[**下载 Livis 0.7.1**](https://github.com/Destined-at-Dawn/livis/releases/tag/v0.7.1) · [**打开下载页**](https://download.yulitongxing.com/#livis) · [使用说明](docs/getting-started.md) · [问题反馈](https://github.com/Destined-at-Dawn/livis/issues)
 
 ![Livis Windows 实际运行画面](docs/assets/livis-windows.png)
 
@@ -16,14 +16,18 @@ Windows x64 本地应用：导入你主动选择的资料，搜索聊天内容�
 
 ## 当前版本
 
-Livis 0.6.9 提供 Windows x64 安装程序。主程序默认直接进入工作台，不要求内测码。旧版 license 文件不会被读取、迁移或刷新，新版本授权使用 v2 文件命名空间。
+Livis 0.7.1 提供 Windows x64 安装包和便携包，可以直接覆盖安装 0.7.0。这一版兑换码能正常兑换、出错时用中文说明原因；点下载 Pi 不再卡死；聊天列表秒开；企业微信头像正常显示；设置向导缩短为 3 步。
 
 安装包 SHA-256
 
-`158ec9bc2ce73d5de59058855b937d2fdab5c00d6c89990ed508a55693593476`
+`4bc38d76346315c418414d97354cbc7829b3a97913cc13323629a0a2717139eb`
 
-- [安装包与校验材料](downloads/0.6.9/)
-- [GitHub Release 下载](https://github.com/Destined-at-Dawn/livis/releases/tag/v0.6.9)
+便携包 SHA-256
+
+`2ae6f20062693d047f851c068851f068f3dfc4fa98d13bcc7e6dbcb20515877b`
+
+- [安装包与校验材料](downloads/0.7.1/)
+- [GitHub Release 下载](https://github.com/Destined-at-Dawn/livis/releases/tag/v0.7.1)
 
 ## 下载后能做什么
 
@@ -35,8 +39,8 @@ Livis 0.6.9 提供 Windows x64 安装程序。主程序默认直接进入工作�
 
 ## 三步开始
 
-1. 从 [GitHub Release](https://github.com/Destined-at-Dawn/livis/releases/tag/v0.6.9) 或[官方下载页](https://download.yulitongxing.com/#livis)取得安装包。
-2. 用 `Get-FileHash .\Livis-Setup-0.6.9-x64.exe -Algorithm SHA256` 核对 SHA-256，再运行安装程序。
+1. 从 [GitHub Release](https://github.com/Destined-at-Dawn/livis/releases/tag/v0.7.1) 或[官方下载页](https://download.yulitongxing.com/#livis)取得安装包。
+2. 用 `Get-FileHash .\Livis-Setup-0.7.1-x64.exe -Algorithm SHA256` 核对 SHA-256，再运行安装程序。
 3. 启动 Livis，选择本机资料位置，导入主动选择的资料；需要额外能力时再导入已签名付费插件。
 
 ## 示例文件

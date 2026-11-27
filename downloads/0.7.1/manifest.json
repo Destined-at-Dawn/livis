@@ -1,0 +1,21 @@
+{
+  "version": "0.7.1",
+  "repository_role": "public-download-metadata-only",
+  "closed_source": true,
+  "assets": {
+    "setup": "Livis-Setup-0.7.1-x64.exe",
+    "setup_size": 200656715,
+    "setup_sha256": "4bc38d76346315c418414d97354cbc7829b3a97913cc13323629a0a2717139eb",
+    "portable": "Livis-Portable-0.7.1-win-x64.zip",
+    "portable_size": 270671206,
+    "portable_sha256": "2ae6f20062693d047f851c068851f068f3dfc4fa98d13bcc7e6dbcb20515877b"
+  },
+  "excluded": [
+    "core_source",
+    "paid_plugin_implementation",
+    "license_service",
+    "keys",
+    "cookies",
+    "user_data"
+  ]
+}
